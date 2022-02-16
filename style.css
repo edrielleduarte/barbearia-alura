@@ -1,0 +1,172 @@
+body {
+  background: #000000;
+}
+nav {
+  font-size: 20px;
+  position: absolute;
+  top: -10px;
+  right: 110px;
+}
+
+.container-principal {
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+}
+nav li a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+#banner {
+  width: 100%;
+}
+.principal {
+  position: relative;
+  margin: 0 auto;
+  padding: 60px;
+  color: #ffffff;
+}
+.cor {
+  margin-top: -4px;
+  padding-left: 80px;
+  position: absolute;
+  background-color: #17161c;
+  position: relative;
+  padding-bottom: 40px;
+}
+.titulo-centralizado {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.titulo-principal {
+  max-width: 480px;
+  margin: 60px auto;
+  color: #fff;
+}
+.titulo-principal:after {
+  content: "|";
+  color: #c78c19;
+  margin-left: 5px;
+  opacity: 5;
+  animation: pisca 0.7s infinite;
+}
+.container-titulo {
+  font-weight: bold;
+  color: #22202d;
+
+  max-width: 400px;
+  color: #fff;
+}
+
+.container-secondary--helloworld {
+  display: none;
+}
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.titulo-principal {
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+p {
+  text-align: center;
+}
+
+#missao {
+  font-size: 20px;
+}
+
+p em strong {
+  color: #ffffff;
+}
+
+.itens {
+  padding-bottom: 40px;
+  font-style: italic;
+}
+
+.beneficios {
+  display: inline-block;
+  padding-top: 10px;
+  position: absolute;
+  padding-left: 100px;
+  color: #ffffff;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.imagembeneficios {
+  width: 30%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+.mapa {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  max-width: 480px;
+}
+
+.titulo-centralizado-beneficios {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.itens-beneficios {
+  border-radius: 10px;
+}
+.titulo-servico {
+  position: relative;
+  font-size: 30px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.titulo-servico:after {
+  content: "_";
+  margin-left: 5px;
+  opacity: 10;
+  animation: piscaDois 0.7s infinite;
+}
+@keyframes piscaDois {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,141 @@
+header {
+  background: #000000;
+  max-width: 100%;
+  padding: 20px 0;
+}
+
+.container-contato {
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  color: #ffffff;
+}
+.titulobarbearia {
+  position: absolute;
+  display: inline;
+  padding-left: 200px;
+  padding-top: 110px;
+  font-size: 25px;
+}
+nav {
+  position: absolute;
+  right: 0;
+  top: 110px;
+}
+
+nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+nav li a {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.titulobarbearia:after {
+  content: "|";
+  color: #c78c19;
+  margin-left: 5px;
+  opacity: 5;
+  animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.itens:hover a {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+.itens:active a {
+  color: green;
+}
+main {
+  max-width: 100%;
+  position: relative;
+  padding-left: 250px;
+  padding-bottom: 150px;
+}
+.tituloLocalizacao {
+  position: relative;
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info {
+  padding-top: 10px;
+}
+
+.info2 {
+  padding-top: 5px;
+}
+.container-formulario {
+  display: inline-block;
+  position: relative;
+}
+.tituloFormulario {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.formulario {
+  max-width: 50%;
+  position: absolute;
+
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 200px;
+  font-size: 20px;
+}
+.form-group {
+  padding-top: 20px;
+}
+
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c78c19;
+}
+.btn:active {
+  background: #182702;
+}
+
+footer {
+  text-align: center;
+  background-color: #17161c;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.img-png {
+  padding-bottom: 1px;
+  height: 150px;
+}
